@@ -13,13 +13,12 @@ public class MainActivity extends AppCompatActivity {
         //develop
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     public void showToast(View view) {
         //создаём и отображаем текстовое уведомление
         Toast toast = Toast.makeText(getApplicationContext(),
-                "Toast is showing",
+                "Toast is showing better)",
                 Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
