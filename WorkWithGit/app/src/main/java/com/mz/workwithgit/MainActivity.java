@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void showToast(View view) {
         //создаём и отображаем текстовое уведомление
         Toast toast = Toast.makeText(getApplicationContext(),
-                "Toast is showing better)",
+                "Toast is showing better & better)",
                 Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
