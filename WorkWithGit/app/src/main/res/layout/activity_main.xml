@@ -20,6 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:onClick="showToast"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="44dp" />
 
