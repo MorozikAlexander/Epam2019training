@@ -24,4 +24,13 @@
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="44dp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Button 2"
+        android:onClick="showToast1"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="44dp" />
+
 </android.support.constraint.ConstraintLayout>

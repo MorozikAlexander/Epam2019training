@@ -16,9 +16,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showToast(View view) {
-        //создаём и отображаем текстовое уведомление
+        //create and show text message
         Toast toast = Toast.makeText(getApplicationContext(),
-                "Toast is showing better)",
+                "Toast 1 is showing better)",
+                Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.show();
+    }
+
+    public void showToast1(View view) {
+        //create and show text message
+        Toast toast = Toast.makeText(getApplicationContext(),
+                "Toast 2 is showing better)",
                 Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
