@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        //2 button Version prepare to Cherry Pick
+        //2 button Version Cherry Picked
 
         //Version 2
 
