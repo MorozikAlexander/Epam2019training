@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //Version 2
-        //2 button Version Master
+        //2 button Version Master + another commit
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
