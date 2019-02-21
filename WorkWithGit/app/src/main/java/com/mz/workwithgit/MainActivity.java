@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //develop
+        //2 button Version prepare to Cherry Pick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
