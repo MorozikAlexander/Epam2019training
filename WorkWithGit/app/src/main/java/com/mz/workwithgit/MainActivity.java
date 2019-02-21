@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //Version 2
+        //2 button Version Cherry Picked
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
@@ -18,7 +19,16 @@ public class MainActivity extends AppCompatActivity {
     public void showToast(View view) {
         //create and show text message
         Toast toast = Toast.makeText(getApplicationContext(),
-                "Toast is showing better & better)",
+                "Toast 1 is showing better)",
+                Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.show();
+    }
+
+    public void showToast1(View view) {
+        //create and show text message
+        Toast toast = Toast.makeText(getApplicationContext(),
+                "Toast 2 is showing better)",
                 Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
