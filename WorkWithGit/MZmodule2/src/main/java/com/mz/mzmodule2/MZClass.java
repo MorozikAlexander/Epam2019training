@@ -1,8 +1,8 @@
 package com.mz.mzmodule2;
 
 public class MZClass {
-    // module version 2
+    // module version 3
     MZClass(){
-        int i = 2;
+        int i = 3;
     }
 }
