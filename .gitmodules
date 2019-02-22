@@ -1,0 +1,3 @@
+[submodule "MZcalculator"]
+	path = MZcalculator
+	url = https://github.com/MorozikAlexander/Epam2017training.git
